@@ -4,12 +4,10 @@ import AppKit
 /// Paste the existing sheet (tab-separated) and get every problem row flagged.
 /// This is the "catch it before it ships" half — it audits work already done.
 struct LinterView: View {
-    @EnvironmentObject var options: OptionStore
     @State private var raw: String = ""
     @State private var links: [UTMLink] = []
     @State private var issuesByRow: [UUID: [Issue]] = [:]
     @State private var onlyProblems = true
-    @State private var importMsg: String?
 
     private var totalErrors: Int {
         issuesByRow.values.flatMap { $0 }.filter { $0.level == .error }.count
@@ -39,27 +37,12 @@ struct LinterView: View {
                     .overlay(RoundedRectangle(cornerRadius: 6)
                         .stroke(Color.ink.opacity(0.15), lineWidth: 1))
 
-                HStack(spacing: 10) {
-                    Button {
-                        links = SheetParser.parse(raw)
-                        issuesByRow = Validator.validateSet(links)
-                        importMsg = nil
-                    } label: {
-                        Label("Check \(links.isEmpty ? "" : "again")", systemImage: "magnifyingglass")
-                            .font(.system(size: 13, weight: .semibold, design: .monospaced))
-                    }
-                    if !links.isEmpty {
-                        Button {
-                            let added = options.importFrom(links)
-                            importMsg = "\(added)개 새 선택지 등록됨"
-                        } label: {
-                            Label("선택지로 등록", systemImage: "square.and.arrow.down")
-                                .font(.system(size: 13, weight: .semibold, design: .monospaced))
-                        }
-                    }
-                }
-                if let importMsg {
-                    Text(importMsg).font(.system(size: 11, design: .monospaced)).foregroundColor(.good)
+                Button {
+                    links = SheetParser.parse(raw)
+                    issuesByRow = Validator.validateSet(links)
+                } label: {
+                    Label("Check \(links.isEmpty ? "" : "again")", systemImage: "magnifyingglass")
+                        .font(.system(size: 13, weight: .semibold, design: .monospaced))
                 }
             }
             .padding(20)
