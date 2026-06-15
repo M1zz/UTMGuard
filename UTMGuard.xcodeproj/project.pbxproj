@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		35370C32791942D3977854F3 /* UTMModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC6991EB2E074C8EB572B854 /* UTMModel.swift */; };
+		35FB30D209474042B4B90C40 /* LinterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF372A6F37C34F559F8ABE3A /* LinterView.swift */; };
+		6343776B78824233A67134A4 /* UTMGuardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB281BE7896D481C819FF24A /* UTMGuardApp.swift */; };
+		AB0F1B7FFDE64E0CB7D21DE8 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D80A3A6B4A4A59944DAEBA /* Validator.swift */; };
+		DC83E4AEC9FB4FD38265BF44 /* BuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825239DB9C4E4939856C59E7 /* BuilderView.swift */; };
+		A1B2C3D4E5F60718293A4B5C /* OptionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F6071829304B5C6D /* OptionStore.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40D80A3A6B4A4A59944DAEBA /* Validator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		592DCAF7C1664A22BEBD5451 /* UTMGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTMGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		825239DB9C4E4939856C59E7 /* BuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderView.swift; sourceTree = "<group>"; };
+		B2C3D4E5F6071829304B5C6D /* OptionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionStore.swift; sourceTree = "<group>"; };
+		BF372A6F37C34F559F8ABE3A /* LinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinterView.swift; sourceTree = "<group>"; };
+		EC6991EB2E074C8EB572B854 /* UTMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTMModel.swift; sourceTree = "<group>"; };
+		FB281BE7896D481C819FF24A /* UTMGuardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTMGuardApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F8B3CC5D9404FA6B9D4B4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B303071231F42DD9A8F0C1F /* UTMGuard */ = {
+			isa = PBXGroup;
+			children = (
+				FB281BE7896D481C819FF24A /* UTMGuardApp.swift */,
+				EC6991EB2E074C8EB572B854 /* UTMModel.swift */,
+				40D80A3A6B4A4A59944DAEBA /* Validator.swift */,
+				825239DB9C4E4939856C59E7 /* BuilderView.swift */,
+				BF372A6F37C34F559F8ABE3A /* LinterView.swift */,
+				B2C3D4E5F6071829304B5C6D /* OptionStore.swift */,
+			);
+			path = UTMGuard;
+			sourceTree = "<group>";
+		};
+		6D3BBC65AFBD458AA70CD659 = {
+			isa = PBXGroup;
+			children = (
+				5B303071231F42DD9A8F0C1F /* UTMGuard */,
+				8BC1E95AFD3A42C583149608 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BC1E95AFD3A42C583149608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				592DCAF7C1664A22BEBD5451 /* UTMGuard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0092380373F4CB39A9475F1 /* UTMGuard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1034F66B35E44A93B7FFC093 /* Build configuration list for PBXNativeTarget "UTMGuard" */;
+			buildPhases = (
+				FB677AD8A9E2483C97775FFA /* Sources */,
+				0F8B3CC5D9404FA6B9D4B4D3 /* Frameworks */,
+				08DD5C10B866455F8F38CAB4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UTMGuard;
+			productName = UTMGuard;
+			productReference = 592DCAF7C1664A22BEBD5451 /* UTMGuard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02D42BC7DBC44E568490A8C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					D0092380373F4CB39A9475F1 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = A60610BA435B4B0CB62C10A9 /* Build configuration list for PBXProject "UTMGuard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6D3BBC65AFBD458AA70CD659;
+			productRefGroup = 8BC1E95AFD3A42C583149608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0092380373F4CB39A9475F1 /* UTMGuard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08DD5C10B866455F8F38CAB4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB677AD8A9E2483C97775FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6343776B78824233A67134A4 /* UTMGuardApp.swift in Sources */,
+				35370C32791942D3977854F3 /* UTMModel.swift in Sources */,
+				AB0F1B7FFDE64E0CB7D21DE8 /* Validator.swift in Sources */,
+				DC83E4AEC9FB4FD38265BF44 /* BuilderView.swift in Sources */,
+				35FB30D209474042B4B90C40 /* LinterView.swift in Sources */,
+				A1B2C3D4E5F60718293A4B5C /* OptionStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		40664E74EB914B5BB8305B1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.UTMGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		94B69A056B0B4A30B8910B2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A904322F98C44A2D8106C910 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F65240A3674B4E1FB096B657 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.UTMGuard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1034F66B35E44A93B7FFC093 /* Build configuration list for PBXNativeTarget "UTMGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F65240A3674B4E1FB096B657 /* Debug */,
+				40664E74EB914B5BB8305B1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A60610BA435B4B0CB62C10A9 /* Build configuration list for PBXProject "UTMGuard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94B69A056B0B4A30B8910B2E /* Debug */,
+				A904322F98C44A2D8106C910 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02D42BC7DBC44E568490A8C0 /* Project object */;
+}
