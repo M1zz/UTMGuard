@@ -13,6 +13,7 @@
 		AB0F1B7FFDE64E0CB7D21DE8 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D80A3A6B4A4A59944DAEBA /* Validator.swift */; };
 		DC83E4AEC9FB4FD38265BF44 /* BuilderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 825239DB9C4E4939856C59E7 /* BuilderView.swift */; };
 		A1B2C3D4E5F60718293A4B5C /* OptionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C3D4E5F6071829304B5C6D /* OptionStore.swift */; };
+		C1A2B3C4D5E60718293A4B5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1A2B3C4D5E60718293A4B5E /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		592DCAF7C1664A22BEBD5451 /* UTMGuard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UTMGuard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		825239DB9C4E4939856C59E7 /* BuilderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderView.swift; sourceTree = "<group>"; };
 		B2C3D4E5F6071829304B5C6D /* OptionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionStore.swift; sourceTree = "<group>"; };
+		D1A2B3C4D5E60718293A4B5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF372A6F37C34F559F8ABE3A /* LinterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinterView.swift; sourceTree = "<group>"; };
 		EC6991EB2E074C8EB572B854 /* UTMModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTMModel.swift; sourceTree = "<group>"; };
 		FB281BE7896D481C819FF24A /* UTMGuardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UTMGuardApp.swift; sourceTree = "<group>"; };
@@ -45,6 +47,7 @@
 				825239DB9C4E4939856C59E7 /* BuilderView.swift */,
 				BF372A6F37C34F559F8ABE3A /* LinterView.swift */,
 				B2C3D4E5F6071829304B5C6D /* OptionStore.swift */,
+				D1A2B3C4D5E60718293A4B5E /* Assets.xcassets */,
 			);
 			path = UTMGuard;
 			sourceTree = "<group>";
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A2B3C4D5E60718293A4B5D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
